@@ -1,22 +1,44 @@
-CS 340 Portfolio Reflection – Rakim Spriggs
-Maintainable, Readable, and Adaptable Code
+# Grazioso Salvare — MongoDB Data Dashboard
 
-Writing maintainable, readable, and adaptable programs starts with organization and separation of responsibilities. In this course, I applied this approach by creating a standalone CRUD Python module in Project One and then reusing it in Project Two to connect the dashboard to the MongoDB database. This separation made the code easier to read and update because database logic was isolated from the user interface.
+**Python · MongoDB · CRUD · Data Filtering · Visualization**
 
-The advantage of this approach is that the CRUD module can be reused in other applications without rewriting database connection logic. For example, I could use this same module in a future web app, mobile backend, or analytics tool that needs to interact with MongoDB. It also makes debugging easier because issues can be traced to either the database layer or the front-end layer independently.
+A database-driven dashboard project developed to help users work with animal-rescue data more efficiently. The application connects a Python CRUD layer to MongoDB and provides filtering and visualization tools through the dashboard interface.
 
-Approaching Problems as a Computer Scientist
+## Project Highlights
 
-When approaching the requirements for the Grazioso Salvare dashboard, I broke the problem into smaller parts: database setup, data retrieval, filtering logic, and visualization. This structured approach allowed me to focus on one component at a time rather than trying to build everything at once.
+- MongoDB database integration
+- Reusable Python CRUD module
+- Create, read, update, and delete database operations
+- Data filtering based on application requirements
+- Dashboard visualization
+- Separation of database logic from the user interface
+- Modular code organization for maintainability
 
-Compared to previous assignments, this project required more integration between systems rather than solving isolated problems. I had to think about how data flows from the database to the user interface and how user actions trigger updates. In the future, I would continue using this modular and step-by-step approach, especially when designing databases for client needs. I would also spend more time planning schema design and query efficiency before implementation.
+## Technical Approach
 
-The Role of Computer Scientists and Why It Matters
+The project separates database operations from the dashboard interface. A standalone CRUD module handles communication with MongoDB, allowing the database layer to be reused without coupling it directly to the user interface.
 
-Computer scientists design systems that help organizations make better decisions using data. In this project, the dashboard allows Grazioso Salvare to quickly identify dogs that meet specific rescue criteria. Instead of manually searching through records, the company can filter and visualize data instantly.
+The dashboard breaks the larger problem into smaller components: database access, filtering logic, data presentation, and visualization. This structure makes the application easier to troubleshoot and extend.
 
-This type of work matters because it improves efficiency, accuracy, and decision-making. By building tools like this dashboard, computer scientists enable organizations to focus on their core mission—in this case, training rescue animals—while relying on technology to handle data analysis.
+## Technologies
 
-Conclusion
+| Area | Technology |
+|---|---|
+| Language | Python |
+| Database | MongoDB |
+| Application | Data dashboard |
+| Version Control | Git / GitHub |
 
-This project demonstrates how combining databases, programming, and user interfaces can create practical solutions for real-world problems. The skills developed in this course, including working with MongoDB, building reusable modules, and designing interactive dashboards, will be valuable for future projects and professional work.
+## What This Project Demonstrates
+
+This project demonstrates practical experience connecting application code to a NoSQL database, designing reusable database operations, working with structured data, and turning database records into information that users can search and understand.
+
+## Academic Context
+
+Originally developed as part of SNHU's CS-340 coursework. The repository is presented here as a technical portfolio project, with emphasis on the implementation and skills demonstrated rather than the course reflection.
+
+## Author
+
+**Rakim Spriggs**  
+B.S. Computer Science — Southern New Hampshire University  
+Expected December 2026
