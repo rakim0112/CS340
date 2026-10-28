@@ -41,4 +41,4 @@ Originally developed as part of SNHU's CS-340 coursework. The repository is pres
 
 **Rakim Spriggs**  
 B.S. Computer Science — Southern New Hampshire University  
-Expected December 2026
+Expected November 2026
